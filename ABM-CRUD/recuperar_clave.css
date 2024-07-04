@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    margin-top: 0px;
+    font-family: Arial, sans-serif;
+}
+
+#env {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: content-box;
+}
+
+#enviar {
+    background-color: #e55;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   width: 60%;
+   font-size: 16px;
+   margin-left: 65px;
+}
+
+#enviar:hover {
+    background-color: #e55;
+}
+
+#elmail {
+    font-size: 14px;
+    margin-left: 80px;
+}

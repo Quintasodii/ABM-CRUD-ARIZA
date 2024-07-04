@@ -1,0 +1,42 @@
+/* Basic styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Form container */
+  div {
+    display: flex; /* Arrange elements horizontally */
+    justify-content: center; /* Center elements within the container */
+    align-items: center; /* Align elements vertically */
+  }
+  
+  /* Form label (text before select) */
+  form label {
+    display: block; /* Display on a new line */
+    margin-bottom: 5px; /* Add space below the label */
+  }
+  
+  /* Select element */
+  select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Submit button */
+  input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Indicate clickable element */
+  }
+  
+  /* Submit button hover effect */
+  input[type="submit"]:hover {
+    background-color: #444;
+  }
+  
